@@ -1,0 +1,31 @@
+// file: .vscode/settings.json
+{
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": true,
+    "ruff.lint.run": "onSave",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always"
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "information",
+        "reportUnknownParameterType": "none",
+        "reportGeneralTypeIssues": "information",
+        "reportArgumentType": "none",
+        "reportCallIssue": "information",
+        "reportReturnType": "information",
+        "reportAttributeAccessIssue": "information",
+        "reportOperatorIssue": "information",
+        "reportIndexIssue": "information",
+        "reportOptionalMemberAccess": "information",
+        "reportOptionalCall": "information",
+        "reportAssignmentType": "information"
+    },
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "notebook.defaultFormatter": "ms-python.autopep8",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "pylint.enabled": false,
+}

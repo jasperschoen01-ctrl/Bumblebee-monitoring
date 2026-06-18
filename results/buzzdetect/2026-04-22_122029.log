@@ -1,0 +1,107 @@
+2026-04-22 12:20:29,009 [INFO] Model: model_general_v3
+Frame hop: 1
+Threshold: None
+Output classes: ins_buzz
+Input directory: /Users/jaspe/Projects/Claude/Bumblebee-monitoring/data/audio_data/original
+Output directory: /Users/jaspe/Projects/Claude/Bumblebee-monitoring/results/buzzdetect
+CPU analyzers: 1
+GPU analyzers: 0
+Chunk length: 199.68s
+Streamers: 6
+Queue depth: 12
+
+2026-04-22 12:20:29,010 [INFO] Building assignments for Bee..WAV
+2026-04-22 12:20:29,011 [INFO] Building assignments for 20260324_130200..WAV
+2026-04-22 12:20:29,012 [INFO] Building assignments for Bee3..WAV
+2026-04-22 12:20:29,012 [INFO] Building assignments for 20260324_120400_background..WAV
+2026-04-22 12:20:29,012 [INFO] Building assignments for 20260413_113700..WAV
+2026-04-22 12:20:29,013 [INFO] Building assignments for 20260324_111301..WAV
+2026-04-22 12:20:29,013 [INFO] Building assignments for 20260413_113500..WAV
+2026-04-22 12:20:29,013 [INFO] Building assignments for 20260413_113100..WAV
+2026-04-22 12:20:29,014 [INFO] Building assignments for 20260324_125100..WAV
+2026-04-22 12:20:29,014 [INFO] Building assignments for 20260324_123001..WAV
+2026-04-22 12:20:29,014 [INFO] Building assignments for 20260413_113301..WAV
+2026-04-22 12:20:29,015 [INFO] Building assignments for 20260413_113400..WAV
+2026-04-22 12:20:29,015 [INFO] Building assignments for 20260413_113600..WAV
+2026-04-22 12:20:29,015 [INFO] Building assignments for 20260408_092023..WAV
+2026-04-22 12:20:29,016 [INFO] Building assignments for 20260413_113200..WAV
+2026-04-22 12:20:29,016 [INFO] writer: launching
+2026-04-22 12:20:29,017 [INFO] streamer 0: launching
+2026-04-22 12:20:29,017 [INFO] streamer 0: buffering Bee..WAV
+2026-04-22 12:20:29,017 [INFO] streamer 1: launching
+2026-04-22 12:20:29,017 [INFO] streamer 1: buffering 20260324_130200..WAV
+2026-04-22 12:20:29,017 [INFO] streamer 2: launching
+2026-04-22 12:20:29,017 [INFO] streamer 2: buffering Bee3..WAV
+2026-04-22 12:20:29,017 [INFO] streamer 3: launching
+2026-04-22 12:20:29,017 [INFO] streamer 3: buffering 20260324_120400_background..WAV
+2026-04-22 12:20:29,017 [INFO] streamer 4: launching
+2026-04-22 12:20:29,018 [INFO] streamer 4: buffering 20260413_113700..WAV
+2026-04-22 12:20:29,018 [INFO] streamer 5: launching
+2026-04-22 12:20:29,018 [INFO] streamer 5: buffering 20260324_111301..WAV
+2026-04-22 12:20:29,023 [INFO] analyzer cpu 0: launching
+2026-04-22 12:20:29,051 [DEBUG] streamer 0: Unreadable audio at 6.1s out of 6.1s for Bee..WAV.
+Bad audio is near file end, results should be mostly unaffected.
+2026-04-22 12:20:29,073 [DEBUG] streamer 4: Unreadable audio at 26.5s out of 26.5s for 20260413_113700..WAV.
+Bad audio is near file end, results should be mostly unaffected.
+2026-04-22 12:20:30,481 [DEBUG] analyzer cpu 0: BUFFER BOTTLENECK: analyzer cpu 0 received assignment after 0.4s
+2026-04-22 12:20:30,482 [INFO] streamer 3: buffering 20260413_113500..WAV
+2026-04-22 12:20:30,482 [INFO] streamer 0: buffering 20260413_113100..WAV
+2026-04-22 12:20:30,486 [INFO] streamer 2: buffering 20260324_125100..WAV
+2026-04-22 12:20:30,512 [INFO] streamer 4: buffering 20260324_123001..WAV
+2026-04-22 12:20:30,540 [INFO] streamer 5: buffering 20260413_113301..WAV
+2026-04-22 12:20:30,544 [INFO] streamer 1: buffering 20260413_113400..WAV
+2026-04-22 12:20:30,637 [INFO] streamer 3: buffering 20260413_113600..WAV
+2026-04-22 12:20:30,643 [INFO] streamer 0: buffering 20260408_092023..WAV
+2026-04-22 12:20:30,648 [INFO] streamer 4: buffering 20260413_113200..WAV
+2026-04-22 12:20:30,674 [INFO] streamer 2: terminating
+2026-04-22 12:20:30,687 [INFO] streamer 5: terminating
+2026-04-22 12:20:30,688 [INFO] streamer 1: terminating
+2026-04-22 12:20:30,732 [Level 15] analyzer cpu 0: analyzed 20260324_120400_background..WAV, chunk (0.0, 3.01) in 1.71s (rate: 1.8)
+2026-04-22 12:20:30,744 [Level 15] analyzer cpu 0: analyzed Bee..WAV, chunk (0.0, 6.1) in 0.01s (rate: 514.8)
+2026-04-22 12:20:30,753 [INFO] streamer 3: terminating
+2026-04-22 12:20:30,761 [Level 15] analyzer cpu 0: analyzed Bee3..WAV, chunk (0.0, 9.6) in 0.02s (rate: 576.6)
+2026-04-22 12:20:30,765 [INFO] streamer 4: terminating
+2026-04-22 12:20:30,783 [Level 15] analyzer cpu 0: analyzed 20260413_113700..WAV, chunk (0.0, 26.5) in 0.02s (rate: 1171.0)
+2026-04-22 12:20:30,819 [Level 15] analyzer cpu 0: analyzed 20260324_111301..WAV, chunk (0.0, 54.0) in 0.04s (rate: 1506.3)
+2026-04-22 12:20:30,858 [Level 15] analyzer cpu 0: analyzed 20260324_130200..WAV, chunk (0.0, 55.0) in 0.04s (rate: 1412.8)
+2026-04-22 12:20:30,895 [Level 15] analyzer cpu 0: analyzed 20260413_113500..WAV, chunk (0.0, 55.0) in 0.04s (rate: 1484.1)
+2026-04-22 12:20:30,930 [Level 15] analyzer cpu 0: analyzed 20260413_113100..WAV, chunk (0.0, 55.0) in 0.04s (rate: 1548.0)
+2026-04-22 12:20:30,965 [Level 15] analyzer cpu 0: analyzed 20260324_123001..WAV, chunk (0.0, 54.0) in 0.03s (rate: 1553.5)
+2026-04-22 12:20:31,003 [Level 15] analyzer cpu 0: analyzed 20260324_125100..WAV, chunk (0.0, 55.0) in 0.04s (rate: 1436.4)
+2026-04-22 12:20:31,040 [Level 15] analyzer cpu 0: analyzed 20260413_113301..WAV, chunk (0.0, 54.0) in 0.04s (rate: 1455.1)
+2026-04-22 12:20:31,076 [Level 15] analyzer cpu 0: analyzed 20260413_113400..WAV, chunk (0.0, 55.0) in 0.04s (rate: 1564.3)
+2026-04-22 12:20:31,116 [Level 15] analyzer cpu 0: analyzed 20260413_113600..WAV, chunk (0.0, 55.0) in 0.04s (rate: 1374.7)
+2026-04-22 12:20:31,152 [Level 15] analyzer cpu 0: analyzed 20260413_113200..WAV, chunk (0.0, 55.0) in 0.04s (rate: 1527.4)
+2026-04-22 12:20:31,272 [Level 15] analyzer cpu 0: analyzed 20260408_092023..WAV, chunk (0.0, 199.68) in 0.12s (rate: 1664.8)
+2026-04-22 12:20:31,432 [DEBUG] analyzer cpu 0: BUFFER BOTTLENECK: analyzer cpu 0 received assignment after 0.2s
+2026-04-22 12:20:31,547 [DEBUG] streamer 0: Unreadable audio at 533.7s out of 533.7s for 20260408_092023..WAV.
+Bad audio is near file end, results should be mostly unaffected.
+2026-04-22 12:20:31,559 [Level 15] analyzer cpu 0: analyzed 20260408_092023..WAV, chunk (199.68, 399.36) in 0.29s (rate: 696.5)
+2026-04-22 12:20:31,632 [INFO] streamer 0: terminating
+2026-04-22 12:20:31,632 [DEBUG] analyzer cpu 0: BUFFER BOTTLENECK: analyzer cpu 0 received assignment after 0.1s
+2026-04-22 12:20:31,632 [DEBUG] coordinator: streamers done
+2026-04-22 12:20:31,699 [Level 15] analyzer cpu 0: analyzed 20260408_092023..WAV, chunk (399.36, 533.7) in 0.14s (rate: 954.2)
+2026-04-22 12:20:32,704 [DEBUG] analyzer cpu 0: all streamers done; terminating
+2026-04-22 12:20:32,707 [DEBUG] coordinator: analyzers done
+2026-04-22 12:20:36,705 [DEBUG] writer: all analyzers done; terminating
+2026-04-22 12:20:36,706 [DEBUG] coordinator: writer done
+2026-04-22 12:20:36,706 [INFO] Analysis complete
+2026-04-22 12:20:36,706 [INFO] Cleaning up results for Bee..WAV
+2026-04-22 12:20:36,731 [INFO] Cleaning up results for 20260324_130200..WAV
+2026-04-22 12:20:36,734 [INFO] Cleaning up results for Bee3..WAV
+2026-04-22 12:20:36,736 [INFO] Cleaning up results for 20260324_120400_background..WAV
+2026-04-22 12:20:36,739 [INFO] Cleaning up results for 20260413_113700..WAV
+2026-04-22 12:20:36,741 [INFO] Cleaning up results for 20260324_111301..WAV
+2026-04-22 12:20:36,743 [INFO] Cleaning up results for 20260413_113500..WAV
+2026-04-22 12:20:36,745 [INFO] Cleaning up results for 20260413_113100..WAV
+2026-04-22 12:20:36,747 [INFO] Cleaning up results for 20260324_125100..WAV
+2026-04-22 12:20:36,749 [INFO] Cleaning up results for 20260324_123001..WAV
+2026-04-22 12:20:36,750 [INFO] Cleaning up results for 20260413_113301..WAV
+2026-04-22 12:20:36,752 [INFO] Cleaning up results for 20260413_113400..WAV
+2026-04-22 12:20:36,753 [INFO] Cleaning up results for 20260413_113600..WAV
+2026-04-22 12:20:36,755 [INFO] Cleaning up results for 20260408_092023..WAV
+2026-04-22 12:20:36,757 [INFO] Cleaning up results for 20260413_113200..WAV
+2026-04-22 12:20:36,759 [INFO] 
+All files analyzed and cleaned.
+Total analysis time: 7.75s
+2026-04-22 12:20:36,759 [DEBUG] logger closing

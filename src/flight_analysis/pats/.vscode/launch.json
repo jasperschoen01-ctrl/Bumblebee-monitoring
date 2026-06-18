@@ -1,0 +1,15 @@
+// file: .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Current File",
+      "cwd": "${fileDirname}",
+      "type": "debugpy",
+      "args": [],
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+  ]
+}

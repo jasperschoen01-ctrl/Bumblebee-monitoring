@@ -1,0 +1,15 @@
+// file: .vscode/extensions.json
+{
+    "recommendations": [
+        "eamodio.gitlens",
+        "bierner.markdown-preview-github-styles",
+        "mhutchie.git-graph",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "aaron-bond.better-comments",
+        "ms-python.autopep8",
+        "ms-python.pylint",
+        "charliermarsh.ruff",
+        "tamasfe.even-better-toml",
+    ]
+}

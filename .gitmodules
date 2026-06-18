@@ -1,0 +1,6 @@
+[submodule "src/flight_analysis/pats"]
+	path = src/flight_analysis/pats
+	url = https://github.com/pats-drones/pats_api_example
+[submodule "models/bee-acoustic-model"]
+	path = models/bee-acoustic-model
+	url = https://github.com/alefiury/Transformers-Bee-Species-Acoustic-Recognition.git

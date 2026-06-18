@@ -1,0 +1,17 @@
+data/
+models/
+venv/
+sd/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.wav
+*.mp4
+*.avi
+.DS_Store
+__pycache__/
+src/flight_analysis/cache/
+cache/
+src/flight_analysis/cache/
+cache/
